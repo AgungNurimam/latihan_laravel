@@ -27,3 +27,6 @@ Route::post('pegawai/store','PegawaiController@store');
 
 //Route Edit Data
 Route::get('/pegawai/edit/{id}','PegawaiController@edit');
+
+//Route Update Data
+Route::post('pegawai/update','PegawaiController@update');
